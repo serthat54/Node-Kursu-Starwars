@@ -1,0 +1,20 @@
+<h1>Sonuç sayfası</h1>
+
+<% veri["results"].forEach(function(sonuc) { %>
+    <h2>
+        <%= sonuc["name"] %>
+    </h2>
+    <h4>Kilosu:
+        <%= sonuc["mass"] %>
+    </h4>
+    <h4>Boyu:
+        <%= sonuc["height"] %>
+    </h4>
+    <h4>Doğum yılı:
+        <%= sonuc["birth_year"] %>
+    </h4>
+    <h4>Uzay Gemisi:
+        <%= sonuc["starships"][0] %>
+    </h4>
+
+    <%});%>
