@@ -18,9 +18,9 @@ app.use((req, res, next) => {
 
 })
 
-app.use((req, res, next) => {
-    res.render('calisma');
-})
+// app.use((req, res, next) => {
+//     res.render('calisma');
+// })
 
 
 app.get('/', (req, res) => {
